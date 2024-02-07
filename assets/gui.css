@@ -1,0 +1,139 @@
+body{
+    background-color: #181027;
+    color:white;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landingimg{
+    width: 70%;
+}
+
+.hlanding{
+   padding-top: 15%;
+   padding-left: 5%;
+}
+
+.toplogo{
+    width: 90%;
+    padding-top: 5px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 20px 0px 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover{
+    border-bottom: thin solid white;
+}
+
+.container{
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 75px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+.button:hover {
+    opacity: 0.6
+}
+
+._round {
+    border-radius: 25px !important;
+}
+
+footer {
+    background-color: #6d5c8e;
+    color: white;
+    position: fixed;
+    height: 300px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+
+}
+
+footer div {
+    margin: 50px;
+}
+
+.footerbutton{
+    background-color: #6d5c8e;
+    border: thick solid #f4511e;
+    color: white;
+    padding: 5px 200px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    text-decoration: none;
+}
+@media only screen and (max-width: 400px) {
+
+    .toplogo{
+        width: 200px;
+    }
+
+    .mystyle {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .button{
+        padding: 10px 100px;
+    }
+
+    .landingimg{
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .mystyle2{
+        height: 300px;
+        overflow: hidden;
+    }
+
+    span{
+        display: none;
+    }
+
+    footer{
+        background-color: rgb(59, 41, 88);
+        flex-direction: column;
+        height: 200px;
+        
+    }
+
+    footer div {
+        margin: 0 10px;
+    }
+
+    .hlanding{
+        padding-top: 0;
+        font-size: large;
+        text-align: center;
+    }
+    
+} 
